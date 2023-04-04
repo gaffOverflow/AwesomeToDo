@@ -16,8 +16,9 @@ This is a simple To-Do List application built with JavaScript.
 - Click the "X" button next to a task to delete it from the list.
 
 ## Technologies Used
-_JavaScript_
+_JavaScript
 _HTML_
 _CSS_
+_tailwind_
 ## Credits
 This application was built by [gaffOverflow] ...
