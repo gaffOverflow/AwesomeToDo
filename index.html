@@ -1,17 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To Do List</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <div class="container">
-    <input type="text">
-    <button>Add</button>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="bg-slate-200">
+    <div class="container text-center py-9 font-sans">
+      <input
+        type="text"
+        class="my-5 rounded-md border-2 border-black border-solid py-2 px-4 text-xl font-semibold bg-transparent"
+        placeholder="Add new task..."
+      />
+      <button
+        class="bg-green-400 border-solid border-2 border-slate-500 font-semobold rounded-md py-2 px-4 addBtn"
+      >
+        <i class="fa-solid fa-plus text-xl"></i>
+      </button>
+      <ol class="taskContainer">
+        <h3 class="text-xl font-semibold text-green-700 mb-4">NEW TASK</h3>
+        <!-- <li class="list">
+         <p class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, rem consequatur? Atque rem repellat, tempore  .</p>
+         <button class="btn completeBtn">complete</button>
+         <button class="btn delBtn">del</button>
+        </li>
+        <li class="list">
+         <p class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, rem consequatur? Atque rem repellat, tempore  .</p>
+         <button class="btn completeBtn">complete</button>
+         <button class="btn delBtn">del</button>
+        </li> -->
+      </ol>
+      <ol class="completed">
+        <h3 class="h3">COMPLETED TASK</h3>
+        <!-- <li class="list">
+          <p class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, rem consequatur? Atque rem repellat, tempore  .</p>
+         <button class="btn completeBtn">complete</button>
+         <button class="btn delBtn">del</button>
+        </li> -->
+      </ol>
+    </div>
+  </body>
 </html>
